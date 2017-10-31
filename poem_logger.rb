@@ -9,7 +9,7 @@ response = HTTParty.get('http://botpoet.com/random/vote/')
 document = Oga.parse_html(response.body)
 poem = document.css('pre.poem').text
 
-if (STDOUT.isatty || (ENV['LOG_HOST'].nil? && ENV['LOG_PORT'].nil?))
+if (!ENV['LOG_HOST'].nil? && !ENV['LOG_PORT'].nil?)
   logger = RemoteSyslogLogger.new(ENV['LOG_HOST'], ENV['LOG_PORT'], program: 'poem-logger')
 else
   logger = Logger.new $stdout
