@@ -1,4 +1,4 @@
-require 'HTTParty'
+require 'httparty'
 require 'remote_syslog_logger'
 require 'logger'
 require 'oga'
