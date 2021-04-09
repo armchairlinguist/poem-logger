@@ -1,5 +1,7 @@
 Logs human and computer poems pulled from http://botpoet.com/ to your syslog destination of choice, or to STDOUT, for fun and profit.
 
+**Update 2021-04-09: I learned that BotPoet.com no longer exists 😢. I'll update this when I get a chance, otherwise substitute your favorite silly text generator.
+
 To use with a syslog destination:
 
 * Set `LOG_HOST` and `LOG_PORT` variables in the shell to the syslog destination of choice. I'm partial to [Papertrail](https://github.com/papertrail).
