@@ -11,4 +11,4 @@ To use in the terminal: don't set the environment variables.
 
 Tested with Ruby 2.2 on MacOS X. Probably best with Ruby 2.0 and up, as many things are.
 
-Be nice and don't hammer BotPoet with requests. They're a fun site and a handy place to find sort-of-sensical poetry.
+**Be nice** and don't hammer BotPoet with requests. They're a fun site and a handy place to find sort-of-sensical poetry.
